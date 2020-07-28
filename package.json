@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Fatherbad/tibiafansite/issues"
   },
-  "homepage": "https://github.com/Fatherbad/tibiafansite#readme"
+  "homepage": "https://github.com/Fatherbad/tibiafansite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "pg": "^8.3.0"
+  }
 }

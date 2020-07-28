@@ -14,6 +14,7 @@ app.use(express.static(__dirname + '/views/'));
 //routes
 
 app.get("/", (req,res) => {
+	console.log('here i am');
 	res.sendFile(views/index.html);
 });
 
